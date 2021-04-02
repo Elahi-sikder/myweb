@@ -218,22 +218,28 @@
         top: 91px !important;
         left: 114px !important;
     }
+
+    .all-show {
+        margin-left: 68px;
+    }
     .me {
         text-align: center;
         display: block !important;
     }
-    .all-show {
-        margin-left: 68px;
+    .navbar-dark .navbar-toggler {
+        left: 28px;
+    }
+    .iam::after {
+        content: '';
+        top: 33px;
+        left: 15px;
     }
     .me::after {
         position: absolute;
         content: '';
-        top: 114%;
-        right: 61px;
-        height: 2px;
-    }
-    .navbar-dark .navbar-toggler {
-        left: 28px;
+        top: 103%;
+        right: 65px;
+
     }
 
     .aboutMe {
