@@ -214,6 +214,7 @@
 }
 
 @media all and (max-width:365px){
+
     .hlw {
         top: 91px !important;
         left: 114px !important;
@@ -241,7 +242,9 @@
         right: 65px;
 
     }
-
+    .mybtn {
+        left: 22px;
+    }
     .aboutMe {
         height: 894px;
     }
@@ -276,6 +279,10 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         grid-template-columns: auto auto;
+    }
+    .myimg {
+        right: 12px;
+        max-width: 360px !important;
     }
     .product .itemBox {
         width: 150px;
