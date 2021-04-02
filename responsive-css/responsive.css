@@ -1,0 +1,279 @@
+@media all and (max-width:1198px){
+    .all-show {
+        position: relative;
+        left: -51px;
+    }
+    .nav-ul {
+        margin-left: 23px;
+    }
+    .navbar-nav>li>a {
+        font-size: 22px !important;
+
+    }
+    .about-me {
+        margin-left: 40px;
+    }
+    .bannerBottom .discuss {
+        top: -106px;
+    }
+    .hlw {
+        left: 381px;
+    }
+    .developer {
+        left: 217px;
+    }
+    .aboutMe {
+        height: 528px; 
+    }
+    .myhome {
+        position: relative;
+        top: 74px;
+    }
+    .myimg1 {
+        top: -44px;
+        left: -40px;
+        height: 478px;
+        width: 221px !important;
+    }
+    .newSocial i {
+        margin: 15px;
+ 
+    }
+    .youtube {
+        right: 3px;
+    }
+    i.twitter.fab.fa-twitter {
+        margin-right: 84px !important;
+    }
+
+}
+@media all and (max-width:1080px) {
+    .all-show {
+        margin-left: 68px;
+    }
+    .navbar-nav>li>a {
+        font-size: 22px !important;
+    }
+    .bannerBottom .discuss {
+        top: -104px !important;
+    }
+    .hlw {
+        left: 362px;
+    }
+    .developer {
+        left: 176px;
+    }
+    .myimg {
+        right: 103px;
+    }
+    .social ul {
+        left: 198px;
+        top: 77px;
+    }
+    .myimg1 {
+        top: -42px;
+    }
+
+
+ }
+
+
+
+@media all and (max-width:1026px){
+    .all-show {
+        margin-left: 99px;
+    }
+    a.navbar-brand {
+        display: inline-block;
+        margin-top: 20px;
+    }
+   .banner{
+       height:auto
+   }
+  
+    .nav-ul {
+        margin-left: 2px !important;
+        margin-top: 19px;
+    }
+    .navbar-nav>li>a {
+        font-size: 17px !important;
+    }
+    .about-me a {
+        font-size: 16px;
+    }
+    .about-me {
+        margin-left: 100px;
+        margin-top: 14px;
+    }
+
+    .iam {
+        top: 431px;
+        left: 38px;
+    }
+    .hlw {
+        top: 219px !important;
+        left: 250px !important;
+    }
+    .bannerBottom .discuss {
+        top: 0px !important;
+    }
+    .myimg {
+        top: 107px !important;
+    }
+    .developer {
+        top: 495px;
+        left: 154px;
+    }
+    .social ul {
+        top: 85px;
+        left: 191px;   
+    }
+    .myimg1 {
+        top: 69px;
+        left: 27px;
+        height: 367px;
+        width: 175px !important;
+    }
+    .me-3 {
+        top: 75px;
+        position: relative;
+        width: 187px;
+        left: -2px;
+    }
+    .newSocial i {
+        margin: 15px;
+    }
+    .youtube {
+        right: -3px;
+    }
+}
+@media all and (max-width:1004px){
+    .about-me {
+        margin-left: 76px;
+    }
+}
+@media all and (max-width:980px){
+    .navbar-dark .navbar-toggler {
+        position: relative;
+        left: 115px;
+        background: black;
+    }
+    .about-me {
+        margin-left: -10px;
+    }
+    .navbar-nav>li>a {
+        font-size: 26px !important;
+    }
+    .about-me a {
+        font-size: 21px;
+    }
+    .aboutMe {
+        height: 616px;
+    }
+    .me-3 {
+        top: 163px;
+        left: -59px;
+    }
+    .myimg1 {
+        top: 157px;
+        left: 10px;
+    }
+    .newSocial i {
+        margin: 8px;
+    }
+    .footer-link a {
+        margin: 7px;
+    }
+    .social ul {
+        top: 120px;
+        left: 173px;
+    }
+}
+
+
+@media all and (max-width:768px){
+    .navbar-dark .navbar-toggler {
+        left: -7px;
+    }
+    .social ul {
+        top: 120px;
+        left: 91px;
+    }
+    .myimg1 {
+        top: 157px;
+        left: 47px;
+    }
+    .me-3 {
+        top: 163px;
+        left: -24px;
+    }
+    .myimg {
+        right: 1px;
+    }
+
+}
+
+@media all and (max-width:360px){
+    .hlw {
+        top: 91px !important;
+        left: 114px !important;
+    }
+
+    .navbar-dark .navbar-toggler {
+        left: 31px;
+    }
+
+    .aboutMe {
+        height: 894px;
+    }
+    .heading ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .social ul {
+        top: 19px;
+        left: 241px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .iam {
+        top: 159px;
+        left: 8px;
+    }
+    .developer {
+        top: 196px;
+        left: 50px;
+    }
+    .me-3 {
+        top: -21px;
+        left: -8px;
+    }
+    .myimg1 {
+        top: -387px;
+        left: 178px;
+    }
+    .product {
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        grid-template-columns: auto auto;
+    }
+    .product .itemBox {
+        width: 150px;
+        height: 162px;
+
+    }
+    .mine {
+        position: relative;
+        top: -383px;
+    }
+    .mn {
+        border: none !important;
+    }
+    .myReview {
+        height: 788px;
+    }
+    #myBlog {
+        height: 258px;
+    }
+}

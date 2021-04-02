@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elahi Sikder---My Portfolio</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="./bootstrap5.0/css/bootstrap.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="./fontawesome/all.min.css">
+    <!-- slickslider -->
+    <link rel="stylesheet" href="./slickslider/slick.css">
+    <link rel="stylesheet" href="./slickslider/slick-theme.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Londrina+Outline&family=Poppins:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./customstyle.css">
+    <!-- reponsive css -->
+    <link rel="stylesheet" href="./responsive-css/responsive.css">
+</head>
+
+<body>
+    <!-- ----------navbar start-------------- -->
+    <nav class="navbar navbar-expand-lg navbar-red navbar-dark position-fixed w-100 mynav">
+        <div class="wrapper"> </div>
+        <div class="container all-show"> <a class="navbar-brand" href="#">Elahi Sikder.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-5 mb-lg-0 nav-ul">
+                    <li class="nav-item"> <a class="nav-link" aria-current="page" href="#">HOME</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#my-services">SERVICE</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#portfolio">PORTFOLIO</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#myBlog">BLOG</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#contact">contact</a> </li>
+
+                </ul>
+                <div class=" about-me">
+                    <a class="btn btn-danger text-uppercase allerta" href='#aBoutMe'>About ME</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ----------navbar end-------------- -->
+
+    <!-- Banner area start -->
+    <section class="banner position-relative">
+        <!-- particle animation start -->
+        <div id="particles"></div>
+        <!-- particle animation end-->
+        <!-- my img and info -->
+        <div class="myimg position-absolute"><img class="img-fluid" src="./image/elahi.png" alt=""></div>
+        <div class="hlw position-absolute">
+            <h1 class="lond text-uppercase text-white">hello...</h1>
+        </div>
+        <div class="position-absolute iam">
+            <h1 class="text-uppercase text-white pr">i am a</h1>
+        </div>
+        <div class="position-absolute developer">
+            <h1 class="text-uppercase peb">developer</h1>
+        </div>
+        <!-- banner-bottom -->
+        <div class="bannerBottom">
+            <div class="container discuss">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <h1 class="pb">Want An Expert</h1>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, quidem.</p>
+                        <a class="btn btn-outline-dark d-lg-inline-block mb-1" href="#">Hire Me</a>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <h1 class="pb">Revisions for Mistake</h1>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, quidem.</p>
+                        <a class="btn btn-outline-dark d-lg-inline-block mb-1" href="#">Support</a>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <h1 class="pb">Let's Discuss &nbsp &nbsp &nbsp &nbsp</h1>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, quidem.</p>
+                        <a class="btn btn-outline-dark d-lg-inline-block mb-1" href="#">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Banner area end -->
+    <!-- About me start -->
+    <section class="aboutMe" id="aBoutMe">
+        <div class="container py-4 ">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3 class="text-uppercase peb me position-relative d-inline-block">About <span
+                            class="text-danger">me</span></h3>
+                </div>
+            </div>
+        </div>
+        <div class="myeverything">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                        <div class="nav flex-column nav-pills me-3 myhome" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <button class="nav-link active mycolor" id="v-pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                                aria-selected="true"><i class="fa fa-2x fa-user" aria-hidden="true"></i>
+                                Profile</button>
+                            <button class="nav-link mycolor" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-profile" type="button" role="tab"
+                                aria-controls="v-pills-profile" aria-selected="false"><i
+                                    class="fas fa-2x fa-chart-bar  "></i> Skill</button>
+                            <button class="nav-link mycolor" id="v-pills-messages-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-messages" type="button" role="tab"
+                                aria-controls="v-pills-messages" aria-selected="false"><i class="fa fa-2x fa-envelope"
+                                    aria-hidden="true"></i> Contact</button>
+                            <button class="nav-link mycolor" id="v-pills-messages-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-awards" type="button" role="tab" aria-controls="v-pills-awards"
+                                aria-selected="false"><i class="fa fa-trophy fa-2x" aria-hidden="true"></i>
+                                Awards</button>
+                            <button class="nav-link mycolor" id="v-pills-messages-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-chats" type="button" role="tab" aria-controls="v-pills-chats"
+                                aria-selected="false"><i class="far fa-2x fa-comment"></i> Chat</button>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <img class="img-fluid w-50 myimg1 " src="./image/elahi1.png" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-6 mine">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane active fade show" id="v-pills-home" role="tabpanel"
+                                aria-labelledby="v-pills-home-tab">
+                                <h1 class="text-uppercase pb ">Hello,i am elahi <span class="text-warning">sikder</span>
+                                </h1>
+                                <h3 class="text-uppercase text-warning">from bangladesh</h3>
+                                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut cum non
+                                    repudiandae sit fugit nobis esse ipsum consequatur nemo.</p>
+                                <div class="">
+                                    <a class="mybtn pb" href="#"><span>Read More <i
+                                                class=" fas fa-long-arrow-alt-right"></i></span> </a>
+                                    <div class="social  position-relative">
+                                        <ul>
+                                            <li><a href="https://www.youtube.com/channel/UC3D6lT3sJMKnx3iOtjkRlcQ"
+                                                    target="_blank"><i class="fab fa-youtube"
+                                                        aria-hidden="true"></i></a></li>
+                                            <li><a href="https://www.instagram.com/elahisikder/" target="_blank"><i
+                                                        class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                            <li><a href="https://www.facebook.com/elahi.sikder" target="_blank"><i
+                                                        class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a href="https://twitter.com/ElahiSikder" target="_blank"><i
+                                                        class="fab fa-twitter" aria-hidden="true"></i></a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                aria-labelledby="v-pills-profile-tab">
+                                <h1 class="text-uppercase pb ">HELLO, I AM ELAHI <span class="text-warning">
+                                        SIKDER</span></h1>
+                                <p class="lead text-danger pr">My Latest Skills</p>
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <span class="text-uppercase pb text-success">html/css</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 95%;"
+                                                aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <span class="text-uppercase pb text-success">Bootstrap</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 90%;"
+                                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <span class="text-uppercase pb text-success">Javascript</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 85%;"
+                                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <span class="text-uppercase pb text-success">jquery</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 85%;"
+                                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <span class="text-uppercase pb text-success">react</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 80%;"
+                                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <span class="text-uppercase pb text-success">wordpress</span>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width:75%;"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                aria-labelledby="v-pills-messages-tab">
+                                <h1 class="text-uppercase peb">HELLO, I AM ELAHI <span
+                                        class="text-warning">Sikder</span></h1>
+                                <p class="lead text-danger pr">I am From Bangladesh</p>
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci odio
+                                    distinctio molestiae iusto minus officiis dolorem cupiditate similique. Sapiente
+                                    beatae, labore aspernatur illum amet ipsam assumenda veniam quae praesentium ipsum!
+                                </p>
+                                <h3 class="text-danger pb"><i class="fa fa-envelope-open" aria-hidden="true"></i>
+                                    alahi.cool@gmail.com</h3>
+                                <h3 class=" pb text-danger"><i class="fa fa-map" aria-hidden="true"></i>
+                                    Tangail,Bangladesh</h3>
+                                <h3 class="text-danger"><i class="fa fa-phone" aria-hidden="true"></i> +8801620812333
+                                </h3>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-awards" role="tabpanel"
+                                aria-labelledby="v-pills-awards-tab">
+                                <h1 class="text-uppercase peb">HELLO, I AM ELAHI <span
+                                        class="text-warning">Sikder</span></h1>
+                                <p class="lead text-danger pr">I am From Bangladesh</p>
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et laboriosam
+                                    vero nemo eveniet distinctio hic ea dolorem neque in sapiente.</p>
+                                <h4 class="pr"><i class="text-danger fa fa-trophy" aria-hidden="true"></i> Best Web
+                                    Developer Award 2021</h4>
+                                <h4 class="pr"><i class="text-danger fa fa-trophy" aria-hidden="true"></i> Programmer
+                                    Award</h4>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-chats" role="tabpanel"
+                                aria-labelledby="v-pills-chats-tab">
+                                <h4 class="pb text-danger">Sent Me Messege Through Whatsapp Or Messenger</h4>
+                                <h1><i class="fab fa-3x fa-whatsapp" aria-hidden="true"></i></h1>
+                                <h1><i class="fab fa-3x fa-facebook-messenger    "></i></h1>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- About me end-->
+
+    <!-- my-services start -->
+    <section id="my-services" class="py-lg-5 ">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                    <h3 class="text-uppercase peb me position-relative d-inline-block">MY <span
+                            class="text-danger">services</span></h3>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 text-center code">
+                            <i class="fa fa-code" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-lg-9 col-md-9">
+                            <h4 class="pb">Website Design &nbsp &nbsp &nbsp </h4>
+                            <p class="lead pr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, optio?</p>
+                            <a class="btn btn-warning" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 text-center code">
+                            <i class="fa fa-cogs" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-lg-9 col-md-9">
+                            <h4 class="pb">Web Development</h4>
+                            <p class="lead pr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, optio?</p>
+                            <a class="btn btn-warning" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 text-center code">
+                            <i class="fa fa-mobile" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-lg-9 col-md-9 pb-sm-12 pb-xs-12">
+                            <h4 class="pb">App Development</h4>
+                            <p class="lead pr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, optio?</p>
+                            <a class="btn btn-warning" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-lg-5 mt-md-5 mt-sm-5 mt-xs-5">
+                <div class="col-lg-4 col-md-4 pb-sm-12 pb-xs-12">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 pb-sm-12 pb-xs-12 text-center code">
+                            <i class="fa fa-lock" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-lg-9 col-md-9 pb-sm-12 pb-xs-12">
+                            <h4 class="pb">Cyber Security</h4>
+                            <p class="lead pr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, optio?</p>
+                            <a class="btn btn-warning" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 pb-sm-12 pb-xs-12 ">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 pb-sm-12 pb-xs-12 text-center code">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="col-lg-9 col-md-9 pb-sm-12 pb-xs-12">
+                            <h4 class="pb">Digital Marketing</h4>
+                            <p class="lead pr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, optio?</p>
+                            <a class="btn btn-warning" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 pb-sm-12 pb-xs-12">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 pb-sm-12 pb-xs-12 text-center code">
+                            <i class="fa fa-info" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-lg-9 col-md-9 pb-sm-12 pb-xs-12">
+                            <h4 class="pb">Other Catagory</h4>
+                            <p class="lead pr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, optio?</p>
+                            <a class="btn btn-warning" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container counting">
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <div class="count">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-3 col-xs-6 text-center pb-4 pb-md-4 pb-sm-4 pb-xs-4  ">
+                                <div class="pop">
+                                    <i class="fas fa-check" aria-hidden="true"></i>
+                                </div>
+                                <h4 class="pb">Project Done</h4>
+                                <h4 class="pb text-warning">1,21,232</h4>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center border-start pb-4 pb-md-4 pb-sm-4 pb-xs-4 border-bottom mn ">
+                                <div class="pop">
+                                    <i class="fas fa-smile" aria-hidden="true"></i>
+                                </div>
+                                <h4 class="pb">Total Clients</h4>
+                                <h4 class="pb text-warning">1,21,232</h4>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"></div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center pt-lg-5 pt-md-5 border-top mn">
+                                <div class="pop">
+                                    <i class="fas fa-dollar-sign"></i>
+                                </div>
+                                <h4 class="pb">Live Products</h4>
+                                <h4 class="pb text-warning">1,21,232</h4>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center pt-lg-5 pt-md-5   border-start mn border-sm-0">
+                                <div class="pop">
+                                    <i class="fas fa-medal"></i>
+                                </div>
+                                <h4 class="pb">Total Awards</h4>
+                                <h4 class="pb text-warning">1,21,232</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- my-services end -->
+
+    <!-- my portfolio start -->
+    <section class="my-portfolio py-lg-5" id='portfolio'>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <h3 class="text-uppercase peb me position-relative d-inline-block">MY <span
+                            class="text-danger">portfolio</span></h3>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio plugin start   -->
+        <div class="heading">
+            <ul>
+                <li class="list active" data-filter="All">All</li>
+                <li class="list" data-filter="card">Bussiness Card</li>
+                <li class="list" data-filter="illustration">Illustartion</li>
+                <li class="list" data-filter="logo">Logo</li>
+                <li class="list" data-filter="template">Web Template</li>
+            </ul>
+        </div>
+        <div class="product">
+            <div class="itemBox card"><img class="img-fluid"
+                    src="./portfolioimage/Bussiness Card/leaf-business-cards-1024x576.jpg" alt=""></div>
+            <div class="itemBox card"><img class="img-fluid"
+                    src="./portfolioimage/Bussiness Card/ac4c26c3159e8610e785514749600563-modern-business-card-design.jpg"
+                    alt=""></div>
+            <div class="itemBox illustration"><img class="img-fluid" src="./portfolioimage/illustration/gfhbj.jpg"
+                    alt=""></div>
+            <div class="itemBox illustration"><img class="img-fluid"
+                    src="./portfolioimage/illustration/0_u-Kxj7id7WBvj5BS.jpg" alt=""></div>
+            <div class="itemBox logo"><img class="img-fluid" src="./portfolioimage/logo/Web-Development.jpg" alt="">
+            </div>
+            <div class="itemBox logo"><img class="img-fluid"
+                    src="./portfolioimage/logo/Reasons-Why-You-Should-Consider-Mobile-Developer-than-Web-Developer.jpg"
+                    alt=""></div>
+            <div class="itemBox logo"><img class="img-fluid" src="./portfolioimage/logo/what-is-a-web-developer.jpg"
+                    alt=""></div>
+            <div class="itemBox template"><img class="img-fluid" src="./portfolioimage/web template/00_preview.jpg"
+                    alt=""></div>
+            <div class="itemBox template"><img class="img-fluid"
+                    src="./portfolioimage/web template/cheap-web-hosting.jpg" alt=""></div>
+            <div class="itemBox template"><img class="img-fluid" src="./portfolioimage/web template/web.jpg" alt="">
+            </div>
+        </div>
+        <!-- portfolio plugin  end   -->
+
+    </section>
+    <!-- my portfolio end -->
+
+    <!-- my review start -->
+
+    <section class="myReview py-lg-5 py-md-5" id="review" style="background-color: #F4F6FA;">
+        <div class="container py-lg-5 py-md-5 ">
+            <h3 class="text-uppercase peb me position-relative d-inline-block">Latest <span
+                    class="text-danger">Reviews</span></h3>
+            <div class="row py-lg-4 py-md-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <h3 class="pb">Trusted With 35,000+ Client</h3>
+                    <p class="pb text-warning h3">5+ Years Of Experences</p>
+                    <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, aliquid. Odit
+                        minus voluptas laboriosam ea.</p>
+                    <a class="mybtn pb" href="#"><span>Hire Me <i class=" fas fa-long-arrow-alt-right"></i></span> </a>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 d-flex flex-column">
+                    <div class="demo">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 p-0 m-2 box">
+                            <div class="row border-bottom m-0 py-lg-2" style="background-color: #F4F6FA;">
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                    <h4 class="pb">Ojanta</h4>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 text-warning">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <p class="pr p-4" style="background-color: #ffffff;">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Dolores repellat officiis, quidem beatae qui accusamus!</p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 p-0 m-2 box">
+                            <div class="row border-bottom m-0 py-lg-2" style="background-color: #F4F6FA;">
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                    <h4 class="pb">Jannat</h4>
+                                </div>
+                                <div class="col-lg-4 col-md-4 text-warning">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <p class="pr p-4" style="background-color: #ffffff;">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Dolores repellat officiis, quidem beatae qui accusamus!</p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 p-0 col-sm-6 m-2 box">
+                            <div class="row border-bottom m-0 py-lg-2" style="background-color: #F4F6FA;">
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                    <h4 class="pb">Arian</h4>
+                                </div>
+                                <div class="col-lg-4 col-md-4 text-warning">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <p class="pr p-4" style="background-color: #ffffff;">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Dolores repellat officiis, quidem beatae qui accusamus!</p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 p-0 m-2 box">
+                            <div class="row border-bottom m-0 py-lg-2" style="background-color: #F4F6FA;">
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                    <h4 class="pb">Sakib</h4>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-warning">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <p class="pr p-4" style="background-color: #ffffff;">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Dolores repellat officiis, quidem beatae qui accusamus!</p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 p-0 m-2 box">
+                            <div class="row border-bottom m-0 py-lg-2" style="background-color: #F4F6FA;">
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                    <h4 class="pb">Tamim</h4>
+                                </div>
+                                <div class="col-lg-4 col-md-4 text-warning">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <p class="pr p-4" style="background-color: #ffffff;">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Dolores repellat officiis, quidem beatae qui accusamus!</p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 p-0 m-2 box">
+                            <div class="row border-bottom m-0 py-lg-2" style="background-color: #F4F6FA;">
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                    <h4 class="pb">Rabby</h4>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-warning">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <p class="pr p-4" style="background-color: #ffffff;">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Dolores repellat officiis, quidem beatae qui accusamus!</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <!-- my review start -->
+    <section id="myBlog"class="py-lg-5 py-md-5 py-sm-5 py-xs-5">
+        <div class="container py-lg-5 py-md-5 py-sm-5">
+            <h3 class="text-uppercase peb me position-relative d-inline-block">My <span class="text-danger">Blogs</span>
+            </h3>
+            <div class="row py-lg-2 py-md-2 py-sm-2">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="blog-main slider">
+                        <div class="col-lg-4 mx-lg-1 col-md-4 mx-md-1 col-sm-4 col-xs-6 mx-sm-3 mx-xs-1 ">
+                            <div class="blog-item">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div><img src="./portfolioimage/web template/web.jpg" alt=""></div>
+                                    <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 m-auto ">
+                                        <div class="blog-text">
+                                            <span class="text-warning d-inline-block"><i class="fa fa-heart" aria-hidden="true"></i> 3.5k </span> 
+                                            <span class="text-warning d-inline-block m-lg-2"> <i class="fa fa-comment" aria-hidden="true"></i> 203</span>
+                                            <span class="text-warning d-inline-block m-lg-2"><i class="fa fa-share" aria-hidden="true"></i> 203</span>
+                                            <h3 class="pb">Marketing</h3> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mx-lg-1 col-md-4 mx-md-1 col-sm-4 col-xs-4 mx-sm-3">
+                            <div class="blog-item">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div><img src="./portfolioimage/web template/web.jpg" alt=""></div>
+                                    <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 m-auto">
+                                        <div class="blog-text">
+                                            <span class="text-warning d-inline-block"><i class="fa fa-heart" aria-hidden="true"></i> 3.5k </span> 
+                                            <span class="text-warning d-inline-block m-lg-2"> <i class="fa fa-comment" aria-hidden="true"></i> 203</span>
+                                            <span class="text-warning d-inline-block m-lg-2"><i class="fa fa-share" aria-hidden="true"></i> 203</span>
+                                            <h3 class="pb">Marketing</h3> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mx-lg-1 col-md-4 mx-md-1 col-sm-4 col-xs-4 mx-sm-3">
+                            <div class="blog-item">
+                                <div class="col-lg-12 col-md-12 col-sm-112col-xs-11 col-sm-12">
+                                    <div><img src="./portfolioimage/web template/web.jpg" alt=""></div>
+                                    <div class="col-lg-11 col-md-11 col-sm-11 m-auto">
+                                        <div class="blog-text">
+                                            <span class="text-warning d-inline-block"><i class="fa fa-heart" aria-hidden="true"></i> 3.5k </span> 
+                                            <span class="text-warning d-inline-block m-lg-2"> <i class="fa fa-comment" aria-hidden="true"></i> 203</span>
+                                            <span class="text-warning d-inline-block m-lg-2"><i class="fa fa-share" aria-hidden="true"></i> 203</span>
+                                            <h3 class="pb">Marketing</h3> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mx-lg-1 col-md-4 mx-md-1 col-sm-4 col-xs-4 mx-sm-3">
+                            <div class="blog-item">
+                                <div class="col-lg-12 col-md-12 col-sm-11 col-sm-12 col-xs-11 col-sm-12">
+                                    <div><img src="./portfolioimage/web template/web.jpg" alt=""></div>
+                                    <div class="col-lg-11 col-md-11 col-sm-11  m-auto">
+                                        <div class="blog-text">
+                                            <span class="text-warning d-inline-block"><i class="fa fa-heart" aria-hidden="true"></i> 3.5k </span> 
+                                            <span class="text-warning d-inline-block m-lg-2"> <i class="fa fa-comment" aria-hidden="true"></i> 203</span>
+                                            <span class="text-warning d-inline-block m-lg-2"><i class="fa fa-share" aria-hidden="true"></i> 203</span>
+                                            <h3 class="pb">Marketing</h3> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mx-lg-1 col-md-4 mx-md-1 col-sm-4 col-xs-4 mx-sm-3">
+                            <div class="blog-item">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-11 col-sm-12">
+                                    <div><img src="./portfolioimage/web template/web.jpg" alt=""></div>
+                                    <div class="col-lg-11 col-md-11 col-sm-11 m-auto">
+                                        <div class="blog-text">
+                                            <span class="text-warning d-inline-block"><i class="fa fa-heart" aria-hidden="true"></i> 3.5k </span> 
+                                            <span class="text-warning d-inline-block m-lg-2"> <i class="fa fa-comment" aria-hidden="true"></i> 203</span>
+                                            <span class="text-warning d-inline-block m-lg-2"><i class="fa fa-share" aria-hidden="true"></i> 203</span>
+                                            <h3 class="pb">Marketing</h3> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mx-lg-1 col-md-4 mx-md-1 col-sm-4 col-xs-4 mx-sm-3">
+                            <div class="blog-item">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-11 col-sm-12">
+                                    <div><img src="./portfolioimage/web template/web.jpg" alt=""></div>
+                                    <div class="col-lg-11 col-md-11 col-sm-11 m-auto">
+                                        <div class="blog-text">
+                                            <span class="text-warning d-inline-block"><i class="fa fa-heart" aria-hidden="true"></i> 3.5k </span> 
+                                            <span class="text-warning d-inline-block m-lg-2"> <i class="fa fa-comment" aria-hidden="true"></i> 203</span>
+                                            <span class="text-warning d-inline-block m-lg-2"><i class="fa fa-share" aria-hidden="true"></i> 203</span>
+                                            <h3 class="pb">Marketing</h3> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- my review end -->
+    <!-- contact start -->
+ <section id="contact"style="background:#F4F6FA" class="py-lg-5 py-md-5">
+    <div class="container py-lg-5 py-md-5">
+        <h3 class="text-uppercase peb me position-relative d-inline-block"> <span class="text-danger">Contact</span>
+        </h3>
+        <div class="row">
+            <div class="col-lg-6 py-lg-5 col-md-6 col-sm-12 col-xs-12 py-md-5 ">
+                <div class="col-lg-10 col-sm-10 col-md-10 m-auto text-center newSocial">
+                    <i class="twitter fab fa-twitter" aria-hidden="true"></i>
+                    <i class="youtube fab fa-youtube" aria-hidden="true"></i>
+                    <i class="instagram fab fa-instagram" aria-hidden="true"></i>
+                    <i class="facebook fab fa-facebook" aria-hidden="true"></i>   
+                    <i class="dribble fab fa-dribbble" aria-hidden="true"></i>
+                    <i class="pinterest fab fa-pinterest" aria-hidden="true"></i>
+                    <i class="linkedin fab fa-linkedin" aria-hidden="true"></i>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                <form class="bg-white p-lg-5 p-md-5 p-sm-5 shadow">
+                    <h3 class="pb text-warning mb-lg-4">Get In Touch</h3>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" id="exampleInputText" placeholder="Enter Your Name" pattern="[a-zA-Z]+"title="Only Character" minlength="4" maxlength="20" aria-describedby="emailHelp" required >
+                    </div>
+                    <div class="mb-3">
+                      <input type="email" class="form-control"placeholder="Enter your Email" id="exampleInputEmail1" required>
+                    </div>
+                   <div class="mb-3">
+                    <input type="password" class="form-control"placeholder="Enter your Password" id="exampleInputPassword" pattern="(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])" required>
+                   </div>
+                   <div class="form-group mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your messege"></textarea>
+                  </div>
+                    <button type="submit" class="btn btn-warning w-100">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- contact end -->
+<section class="py-lg-5 py-md-5"style="background:#222222">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="col-lg-9 col-md-9 m-auto text-center">
+                    <h3 class="pb text-warning">Elahi Sikder.</h3>
+                    <div class="fotter-social">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </div>
+                    <div class="footer-link">
+                        <a href="#aBoutMe">About</a>
+                        <a href="#my-services">Service</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#myBlog">My Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</section>
+<footer class="footer-botom">
+    <h6 class="py-lg-4 pb mb-0">Copyright © 2021. All rights reserved by <span class="text-warning">Elahi Sikder</span></h6>
+</footer>
+
+
+
+    <!-- bootstrap js   -->
+    <script src="./bootstrap5.0/js/bootstrap.min.js"></script>
+    <!-- jquery -->
+    <script src="./jquery/jquery-3.6.0.js"></script>
+    <!-- particle -->
+    <script src="./particle/jquery.particleground.min.js"></script>
+    <!-- slik slider -->
+    <script src="./slickslider/slick.min.js"></script>
+    <!-- custom js -->
+    <script src="./main.js"></script>
+
+</html>
