@@ -218,8 +218,19 @@
         top: 91px !important;
         left: 114px !important;
     }
+    .me {
+        text-align: center;
+        display: block !important;
+    }
     .all-show {
         margin-left: 68px;
+    }
+    .me::after {
+        position: absolute;
+        content: '';
+        top: 114%;
+        right: 61px;
+        height: 2px;
     }
     .navbar-dark .navbar-toggler {
         left: 28px;
