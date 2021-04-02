@@ -213,14 +213,16 @@
 
 }
 
-@media all and (max-width:360px){
+@media all and (max-width:365px){
     .hlw {
         top: 91px !important;
         left: 114px !important;
     }
-
+    .all-show {
+        margin-left: 68px;
+    }
     .navbar-dark .navbar-toggler {
-        left: 31px;
+        left: 28px;
     }
 
     .aboutMe {
